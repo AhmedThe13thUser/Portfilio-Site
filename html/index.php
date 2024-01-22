@@ -10,7 +10,12 @@
     <title>Server</title>
   </head>
   <body>
-    <Navbar/>
+    <Navbar></Navbar>
+    <div id="home">
+      I am Ahmed, a <?php echo date("Y") - 2011; ?> year old.
+    </div>
+    <div id="projects"></div>
+    <div id="contacts"></div>
   </body>
 </html>
 

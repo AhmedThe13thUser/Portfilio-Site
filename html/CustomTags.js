@@ -3,7 +3,7 @@ const Nav = document.querySelector("Navbar");
 
 const CheckNav = () => {
 let Hash = window.location.hash.replace('#','');
-if(Hash == 'home') {
+if(Hash == 'home' || Hash == '') {
     Nav.innerHTML = 
       `
    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
